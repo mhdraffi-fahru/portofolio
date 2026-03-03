@@ -237,6 +237,14 @@ h3 {
   color: white !important;
   text-decoration: none !important;
 }
+/* FIX warna title agar tidak putih di HP */
+.title {
+  color: gold !important;
+}
+
+#about .title {
+  color: gold !important;
+}
 }
 
 
