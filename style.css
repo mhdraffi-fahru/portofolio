@@ -233,6 +233,10 @@ body{
   .home-left h1{
     font-size:28px;
   }
+h3 {
+  color: white !important;
+  text-decoration: none !important;
+}
 }
 
 
