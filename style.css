@@ -116,21 +116,20 @@ body{
 /* CARD */
 .home-card,
 .card,
-.skill-card {
-  background: #2c2c2c;
-  backdrop-filter: blur(25px);
-  border-radius: 25px;
-  border: 1px solid rgba(245, 158, 11, 0.3);
-  box-shadow: 0 0 40px rgba(245, 158, 11, 0.2);
-  padding: 30px;
-  transition: 0.4s;
+.skill-card{
+  background:#2c2c2c;
+  border-radius:25px;
+  border:1px solid rgba(245,158,11,0.3);
+  box-shadow:0 0 40px rgba(245,158,11,0.2);
+  padding:30px;
+  transition:0.4s;
 }
 
 .home-card:hover,
 .card:hover,
-.skill-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 0 50px rgba(245, 158, 11, 0.6);
+.skill-card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 0 50px rgba(245,158,11,0.6);
 }
 
 .home-card img{
@@ -199,24 +198,25 @@ body{
   color:white;
   font-weight:600;
   transition:0.3s;
-  box-shadow:0 5px 20px rgba(245, 158, 11, 0.4);
+  box-shadow:0 5px 20px rgba(245,158,11,0.4);
 }
 
 .ig-btn:hover{
   transform:translateY(-4px);
-  box-shadow:0 8px 30px rgba(245, 158, 11, 0.6);
+  box-shadow:0 8px 30px rgba(245,158,11,0.6);
 }
 
 /* FOOTER */
 .footer{
   padding:30px;
   text-align:center;
-  border-top:1px solid rgba(245, 158, 11, 0.3);
+  border-top:1px solid rgba(245,158,11,0.3);
   opacity:0.8;
 }
 
 /* RESPONSIVE */
 @media(max-width:900px){
+
   .home-container{
     flex-direction:column;
     text-align:center;
@@ -226,6 +226,10 @@ body{
     padding:0 20px;
   }
 
+  .nav-links{
+    display:none;
+  }
+
   .section{
     padding:120px 20px;
   }
@@ -233,18 +237,5 @@ body{
   .home-left h1{
     font-size:28px;
   }
-h3 {
-  color: white !important;
-  text-decoration: none !important;
-}
-/* FIX warna title agar tidak putih di HP */
-.title {
-  color: gold !important;
-}
 
-#about .title {
-  color: gold !important;
 }
-}
-
-
