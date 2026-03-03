@@ -226,9 +226,34 @@ body{
     padding:0 20px;
   }
 
-  .nav-links{
-    display:none;
+ @media(max-width:900px){
+
+  .home-container{
+    flex-direction:column;
+    text-align:center;
   }
+
+  .navbar{
+    padding:0 15px;
+  }
+
+  .nav-links{
+    gap:15px;
+  }
+
+  .nav-links a{
+    font-size:12px;
+  }
+
+  .section{
+    padding:100px 20px;
+  }
+
+  .home-left h1{
+    font-size:26px;
+  }
+
+}
 
   .section{
     padding:120px 20px;
