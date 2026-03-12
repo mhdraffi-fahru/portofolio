@@ -244,3 +244,20 @@ body{
   position:relative;
   z-index:2;
 }
+@media(max-width:768px){
+
+  .navbar{
+    padding:0 15px;
+  }
+
+  .nav-links{
+    gap:10px;
+    font-size:12px;
+  }
+
+  .btn{
+    padding:6px 12px;
+    font-size:12px;
+  }
+
+}
